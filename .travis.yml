@@ -1,5 +1,5 @@
 language: python
 python:
-  - "3.12"
+  - "3.11"
 script:
-  - python scripts/test_coverage.sh
+  - scripts/ci_build.sh
