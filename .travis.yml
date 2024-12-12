@@ -1,0 +1,5 @@
+language: python
+python:
+  - "3.11"
+script:
+  - scripts/ci_build.sh
